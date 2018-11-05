@@ -1,0 +1,192 @@
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset !important;
+}
+select{
+    font-size: 14px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    width: 40%;
+    line-height: 20px;
+    display: inline;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+.price{
+    padding-left: 40px;
+}
+.payable,.pay{
+    width: 40%!important;
+    display: inline-block;
+}
+.payname{
+    width: 10%;
+    padding:7px 7px 7px 20px;
+}
+.coupon{
+    font-size: 14px;
+    border: solid 1px #ddd;
+    width: 18px!important;
+    height: 18px!important;
+    line-height: 20px;
+    display: block;
+    border-radius: 3px;
+    margin-top: 6px;
+    display: inline-block;
+}
+.couponbox{
+    display: none;
+}
+.couponclick{
+    display: block;
+}
+.box{
+    /*width: 80%;*/
+    height: auto;
+    margin: 20px auto 0;
+}
+.form-x .form-group .label{
+    width: 20%;
+}
+.form-group{
+    padding-right: 10px;
+}
+.radionbox{
+    padding-top: 10px;
+}
+.radio{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.amount,.number,.gasprice{
+    width: 40%;
+    display: inline;
+}
+.numbername{
+    padding-left: 14px;
+}
+
+.box{
+    width: 50%;
+}
+.inputs{
+    width: 80%;
+}
+.form-group{
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+.input{
+    padding:7px;
+}
+.body-content{
+    padding-bottom: 12px;
+}
+.radionbox{
+    padding-top: 7.3px;
+}
+.form-x{
+    padding-left: 60px;
+}
+.field{
+    width: 80%!important;
+}
+
+
+.phone{
+    width: 50%;
+    display: inline-block;
+}
+.hint{
+    display: inline-block;
+}
+
+.pre{
+    font-size: 16px;
+    display: inline-block;
+}
+input[type="radio"]{
+    width: 18px!important;
+    height: 18px!important;
+}
+
+
+
+
+
+@media (max-width: 860px) {
+    .form-x{
+        padding-left: 40px;
+    }
+     .label{
+        width: 30%!important;
+    }
+    .field{
+        width: 70%!important;
+    }
+    .inputs{
+        width: 90%;
+    }
+}
+@media (max-width: 760px) {
+    .form-x{
+        padding-left: 20px;
+    }
+    .label{
+        width: 100%!important;
+    }
+    .field{
+        width: 100%!important;
+    }
+    .inputs{
+        width: 85%;
+    }
+    .box{
+        width: 80%;
+    }
+}
+@media (max-width: 620px) {
+    .form-x{
+        padding-left: 10px;
+    }
+    .label{
+        width: 100%!important;
+    }
+    .field{
+        width: 100%!important;
+    }
+    select,.gasprice{
+        width: 85%!important;
+    }
+    .price{
+        display: block;
+        padding-left: 0px;
+        padding-bottom: 7px;
+    }
+    select{
+        margin-bottom:22px;
+    }
+    .inputs{
+        width: 95%;
+    }
+    .form-group{
+        padding-right: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 6px;
+    }
+    .input{
+        padding:7px;
+    }
+    .body-content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .radionbox{
+        padding-top: 1px;
+    }
+    .box{
+        width: 90%;
+    }
+    .label{
+        padding-bottom: 4px;
+    }
+}
